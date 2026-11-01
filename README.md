@@ -1,16 +1,19 @@
-## Hi there 👋
+# Oliver Žaigla
 
-<!--
-**LiveFuller/LiveFuller** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Developer · SiteSpot co-founder · Prague, Czechia**
 
-Here are some ideas to get you started:
+I build AI agents, automations, and web apps.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Focus
+- LLM applications and retrieval-augmented generation (RAG)
+- Workflow automation and integrations
+- Full-stack product development
+
+## Tools
+Python · TypeScript · React · Node.js · PostgreSQL · Docker · AWS
+
+## Selected work
+[Portfolio and project case studies](https://www.zaigla.com)
+
+## Connect
+[LinkedIn](https://www.linkedin.com/in/zaigla/)
