@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170">
+  <title>String Lab — Interactive physics</title>
+  <defs>
+    <clipPath id="card"><rect width="1000" height="170" rx="14"/></clipPath>
+    <linearGradient id="blue"><stop stop-color="#11213d"/><stop offset="1" stop-color="#172c54"/></linearGradient>
+    <linearGradient id="wire"><stop stop-color="#8b82ff"/><stop offset=".58" stop-color="#81d0ff"/><stop offset="1" stop-color="#a2fcdd"/></linearGradient>
+    <pattern id="graph" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0v20" fill="none" stroke="#96beff" stroke-opacity=".17"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#card)">
+    <path fill="url(#blue)" d="M0 0h1000v170H0z"/>
+    <path fill="url(#graph)" d="M450 0h550v170H450z"/>
+    <path d="M450 0v170m350-170v170" stroke="#a8c5ff" stroke-opacity=".3"/>
+    <text x="37" y="52" fill="#a2fcdd" font-family="Consolas, monospace" font-size="19" letter-spacing="2">INTERACTIVE PHYSICS</text>
+    <text x="32" y="123" fill="#eff6ff" font-family="Arial, sans-serif" font-size="76" font-weight="bold" letter-spacing="-4">String Lab</text>
+    <g fill="none" stroke="url(#wire)" stroke-width="1.2">
+      <path d="M482 86q69-87 128-15t145-18M488 94q69-83 128-14t145-17M494 102q69-79 128-13t145-16M500 110q69-75 128-12t145-15M506 118q69-71 128-11t145-14M512 126q69-67 128-10t145-13M518 134q69-63 128-9t145-12M524 142q69-59 128-8t145-11"/>
+      <path d="m482 86 42 56m-22-79 41 62m-20-79 40 68m-18-78 40 71m-18-72 39 70m-17-58 38 64m-17-41 42 64m-19-44 42 59m-18-48 42 57m-18-60 42 57m-18-69 42 59m-18-69 42 62m-18-82 42 70" opacity=".57"/>
+    </g>
+    <path d="M823 136h141M823 89h141M823 43h141M823 43v93" fill="none" stroke="#6997ca" stroke-opacity=".67"/>
+    <path d="M825 102c13 0 15-39 28-37s11 45 24 44 16-34 27-32 11 21 23 21 17-13 35-12" fill="none" stroke="#a2fcdd" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="853" cy="65" r="4" fill="#a2fcdd"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="169" rx="13.5" fill="none" stroke="#92baff" stroke-opacity=".4"/>
+</svg>

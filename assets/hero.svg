@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 438">
+  <title>Oliver Žaigla — Software for the real world</title>
+  <defs>
+    <clipPath id="frame"><rect width="1000" height="438" rx="18"/></clipPath>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#100e1c"/>
+      <stop offset="1" stop-color="#1e1242"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#7a40ff" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#7a40ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5edff"/>
+      <stop offset=".52" stop-color="#a077ff"/>
+      <stop offset="1" stop-color="#50379c"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff8ff"/>
+      <stop offset="1" stop-color="#ac85ff"/>
+    </linearGradient>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 H 0 V 25" fill="none" stroke="#b89aff" stroke-opacity=".14"/>
+    </pattern>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M1 2h1m3 3h1m-3 2h1" stroke="#e4d4ff" opacity=".08"/>
+    </pattern>
+    <style>
+      .trail { animation: flow 7s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -100; } }
+      @media (prefers-reduced-motion: reduce) { .trail { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="438" fill="url(#background)"/>
+    <ellipse cx="783" cy="222" rx="275" ry="246" fill="url(#glow)"/>
+    <path d="M515 0H1000V438H485L515 371Z" fill="url(#grid)"/>
+    <rect width="1000" height="438" fill="url(#grain)"/>
+    <path d="M40 76H960M40 364H960" stroke="#b49fcc" stroke-opacity=".45"/>
+    <text x="42" y="53" fill="#e2d1f5" font-family="Consolas, monospace" font-size="16" letter-spacing="2.2">OLIVER ŽAIGLA / LIVEFULLER</text>
+    <circle cx="801" cy="47" r="4" fill="#ddff75"/>
+    <text x="818" y="53" fill="#e2d1f5" font-family="Consolas, monospace" font-size="15" letter-spacing="1.8">PRAGUE, CZ</text>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M618 219h306m-153-132v264" stroke="#c2acff" stroke-opacity=".37" stroke-dasharray="3 7"/>
+      <circle cx="771" cy="219" r="119" stroke="#bd99ff" stroke-opacity=".65"/>
+      <circle cx="771" cy="219" r="105" stroke="#d7c2ff" stroke-opacity=".27" stroke-dasharray="2 6"/>
+      <g stroke="url(#orbit)" stroke-width="1.4">
+        <ellipse cx="771" cy="219" rx="168" ry="63" transform="rotate(-27 771 219)"/>
+        <ellipse cx="771" cy="219" rx="168" ry="63" transform="rotate(32 771 219)" opacity=".8"/>
+        <ellipse cx="771" cy="219" rx="126" ry="47" transform="rotate(78 771 219)" opacity=".7"/>
+      </g>
+      <ellipse class="trail" cx="771" cy="219" rx="168" ry="63" transform="rotate(-27 771 219)" pathLength="100" stroke="#ddff75" stroke-width="2.8" stroke-dasharray="8 92" stroke-dashoffset="10"/>
+      <path d="M881 119h21v-11h30M649 302h-31v23h-27" stroke="#c0a7ff" stroke-opacity=".75"/>
+      <path d="M936 101v14m-7-7h14M589 320v10m-5-5h10" stroke="#ddff75"/>
+    </g>
+    <circle cx="651" cy="262" r="4" fill="#ddff75"/>
+    <circle cx="869" cy="283" r="3" fill="#ebddff"/>
+    <circle cx="819" cy="123" r="3" fill="#ebddff"/>
+    <circle cx="771" cy="219" r="66" fill="#231348" stroke="#cdadff" stroke-width="1.5"/>
+    <circle cx="771" cy="219" r="58" fill="none" stroke="#a378ff" opacity=".45"/>
+    <path d="M745 194h56l-58 51h58m-45-75 15 11 15-11" fill="none" stroke="url(#mark)" stroke-width="6" stroke-linecap="square" stroke-linejoin="bevel"/>
+
+    <g font-family="Arial, sans-serif" font-weight="800" letter-spacing="-4">
+      <text x="36" y="160" fill="#f8f1ff" font-size="84">Software</text>
+      <text x="36" y="243" fill="#f8f1ff" font-size="84">for the real</text>
+      <text x="36" y="326" fill="#ddff75" font-size="92">world.</text>
+    </g>
+    <text x="42" y="405" fill="#e2d1f5" font-family="Consolas, monospace" font-size="19" letter-spacing="1.3">AI AGENTS  /  AUTOMATION  /  WEB APPS</text>
+    <path d="M935 404v-16m-8 8h16m9 0h8" fill="none" stroke="#ddff75" stroke-width="2"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="437" rx="17.5" fill="none" stroke="#a583e6" stroke-opacity=".55"/>
+</svg>

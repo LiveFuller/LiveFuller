@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170">
+  <title>SiteSpot — Web and automation studio</title>
+  <defs>
+    <clipPath id="card"><rect width="1000" height="170" rx="14"/></clipPath>
+    <linearGradient id="paper"><stop stop-color="#cfbfff"/><stop offset="1" stop-color="#9c83e8"/></linearGradient>
+    <pattern id="grid" width="19" height="19" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#4c3288" opacity=".42"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#card)">
+    <path fill="url(#paper)" d="M0 0h1000v170H0z"/>
+    <path fill="url(#grid)" d="M450 0h550v170H450z"/>
+    <path d="M484 0v170m462-170v170" stroke="#5f4396" stroke-opacity=".42" stroke-dasharray="3 7"/>
+    <text x="37" y="52" fill="#392360" font-family="Consolas, monospace" font-size="19" letter-spacing="2">WEB &amp; AUTOMATION STUDIO</text>
+    <text x="33" y="123" fill="#201234" font-family="Arial, sans-serif" font-size="76" font-weight="bold" letter-spacing="-4">SiteSpot</text>
+    <g stroke="#2a194b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M706 85h61m36 0h34q11 0 11-11V52q0-9 10-9h21m-76 42h34q11 0 11 11v22q0 9 10 9h21" fill="none"/>
+      <rect x="531" y="28" width="174" height="114" rx="9" fill="#7253af"/>
+      <rect x="524" y="20" width="174" height="114" rx="9" fill="#f2eaff"/>
+      <path d="M524 44h174"/>
+      <circle cx="539" cy="32" r="2.5" fill="#2a194b" stroke="none"/>
+      <circle cx="549" cy="32" r="2.5" fill="#2a194b" stroke="none"/>
+      <circle cx="559" cy="32" r="2.5" fill="#2a194b" stroke="none"/>
+      <path d="m577 75-12 12 12 12m67-24 12 12-12 12m-25-33-15 42" fill="none" stroke-width="4"/>
+      <rect x="765" y="66" width="39" height="39" rx="10" fill="#ddff75"/>
+      <path d="m789 74-10 12h9l-7 10" fill="none"/>
+      <rect x="879" y="26" width="44" height="34" rx="8" fill="#f2eaff"/>
+      <path d="m892 42 6 6 12-11" fill="none"/>
+      <rect x="879" y="110" width="44" height="34" rx="8" fill="#f2eaff"/>
+      <path d="M891 123h20m-20 8h14"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="169" rx="13.5" fill="none" stroke="#ac91e0"/>
+</svg>
