@@ -2,7 +2,7 @@
 
 I’m Oliver, a developer based in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
 
-[Products](#selected-work) · [Build notes](#behind-the-build) · [Web projects](#web-projects) · [Code & data](#code-and-data) · [Contact](#contact)
+[Products](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Web projects](#user-content-web-projects) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
 
 <a name="selected-work"></a>
 
