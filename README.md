@@ -1,4 +1,4 @@
-![LiveFuller. A lone figure stands on a rocky ridge beneath the bright accretion disk of a black hole.](assets/profile-cover-eclipse.webp)
+![Oliver Žaigla, LiveFuller. A hooded mage raises a staff amid floating rocks beneath a black hole.](assets/profile-cover-mage.webp)
 
 # Oliver Žaigla
 
