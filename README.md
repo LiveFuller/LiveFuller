@@ -1,4 +1,4 @@
-![LiveFuller. A hooded figure with a cracked white mask and an eclipse over Prague.](assets/profile-cover-manga.webp)
+![LiveFuller. A lone figure stands on a rocky ridge beneath the bright accretion disk of a black hole.](assets/profile-cover-eclipse.webp)
 
 # Oliver Žaigla
 
