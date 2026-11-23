@@ -1,4 +1,4 @@
-![Oliver Žaigla, LiveFuller. A hooded mage raises a staff amid floating rocks beneath a black hole.](assets/profile-cover-mage.webp)
+![Oliver Žaigla, LiveFuller. A sharply inked black-and-white hood framed by a sliver of an eclipse.](assets/profile-cover-ink.webp)
 
 # Oliver Žaigla
 
