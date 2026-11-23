@@ -10,7 +10,7 @@ I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace fo
 
 | **Waygo** · Marketplace | **Leadora.cz** · Parent company |
 | :--- | :--- |
-| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![Leadora lettering beside two black crystal towers on a shared base](assets/leadora-showcase.webp)](https://www.leadora.cz/) |
+| [![The Waygo mobile catalogue and hotel QR card over a black-and-white Prague skyline](assets/waygo-showcase-mono.webp)](https://www.waygo.cz/) | [![Leadora lettering beside two black crystal towers on a shared base](assets/leadora-showcase.webp)](https://www.leadora.cz/) |
 | **What can we do in Prague today?** A hotel guest scans a QR code, browses local experiences and requests a booking from their phone. | Leadora brings together SiteSpot, its digital studio, and Nomo, an agent identity and control product in development. |
 | [Explore Waygo ↗](https://www.waygo.cz/) | [Explore Leadora ↗](https://www.leadora.cz/) |
 
