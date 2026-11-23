@@ -4,7 +4,7 @@ I’m Oliver, a developer based in Prague. I build **Waygo** for hotel guests an
 
 [Products](#selected-work) · [Build notes](#behind-the-build) · [Web projects](#web-projects) · [Code & data](#code-and-data) · [Contact](#contact)
 
-<a id="selected-work"></a>
+<a name="selected-work"></a>
 
 ## ![Selected work](assets/section-work.webp)
 
@@ -14,7 +14,7 @@ I’m Oliver, a developer based in Prague. I build **Waygo** for hotel guests an
 | **What can we do in Prague today?** Waygo takes a guest from a hotel QR card to an experience they can book on their phone. | **Which orders still need a decision?** Step through a simulated assistant that explains which orders it flagged and where its answer came from. |
 | [Explore Waygo ↗](https://www.waygo.cz/) | [Try the agent demo ↗](https://www.zaigla.com/en#demo) |
 
-<a id="behind-the-build"></a>
+<a name="behind-the-build"></a>
 
 ## ![Behind the build](assets/section-build.webp)
 
@@ -33,7 +33,7 @@ In the simulated demo, choose the question about orders waiting for manual appro
 
 [Run the example ↗](https://www.zaigla.com/en#demo)
 
-<a id="web-projects"></a>
+<a name="web-projects"></a>
 
 ## ![Web projects](assets/section-web.webp)
 
@@ -45,7 +45,7 @@ In the simulated demo, choose the question about orders waiting for manual appro
 
 **[Lynx Studio ↗](https://lynx-studio-delta.vercel.app/)** is a side project that explores motion, typography and a case-study layout for a creative studio.
 
-<a id="code-and-data"></a>
+<a name="code-and-data"></a>
 
 ## ![Code and data](assets/section-code.webp)
 
