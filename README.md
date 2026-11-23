@@ -8,7 +8,7 @@ I’m Oliver, a developer in Prague. I build **Waygo** for hotel guests and publ
 
 | **Waygo** | **zaigla.com** |
 | :--- | :--- |
-| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-screen.webp)](https://www.waygo.cz/) | [![The zaigla.com sample agent flags two orders and links its answer to the ERP approval queue](assets/zaigla-screen.webp)](https://www.zaigla.com/en#demo) |
+| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![The zaigla.com sample agent flags two orders and cites the ERP approval queue](assets/zaigla-screen.webp)](https://www.zaigla.com/en#demo) |
 | A hotel guest scans a card, picks a Prague experience and requests a booking from their phone. | Try an agent that checks sample orders and shows the source behind its answer. |
 | [Explore Waygo](https://www.waygo.cz/) · [For the front desk](https://www.waygo.cz/partner/reception) | [Open the demo](https://www.zaigla.com/en#demo) · [Visit zaigla.com](https://www.zaigla.com/en) |
 
