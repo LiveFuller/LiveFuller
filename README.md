@@ -1,18 +1,18 @@
 ![LiveFuller, Oliver Žaigla. A black crystal mask with a silver streak, with the Prague skyline behind it.](assets/livefuller-obsidian.webp)
 
-I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace for local experiences, and built **Receipt Maker**, a browser tool for receipts and invoices.
+I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace for local experiences, and **Leadora**, the company developing Nomo.
 
-[Products](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Client work](#user-content-client-work) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
+[Featured work](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Client work](#user-content-client-work) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
 
 <a name="selected-work"></a>
 
 ## ![Selected work](assets/section-work.webp)
 
-| **Waygo** · Marketplace | **Receipt Maker** · Browser tool |
+| **Waygo** · Marketplace | **Leadora.cz** · Parent company |
 | :--- | :--- |
-| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![Receipt Maker’s editor and a live preview of a sample restaurant receipt](assets/receipt-maker-preview.webp)](https://www.zaigla.com/receipt-maker) |
-| **What can we do in Prague today?** A hotel guest scans a QR code, browses local experiences and requests a booking from their phone. | **Can the printed total match every line?** Create a receipt or invoice with per-line VAT and print it on thermal paper or A4. Calculations run in the browser. |
-| [Explore Waygo ↗](https://www.waygo.cz/) | [Open Receipt Maker ↗](https://www.zaigla.com/receipt-maker) |
+| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![Leadora lettering beside two black crystal towers on a shared base](assets/leadora-showcase.webp)](https://www.leadora.cz/) |
+| **What can we do in Prague today?** A hotel guest scans a QR code, browses local experiences and requests a booking from their phone. | Leadora brings together SiteSpot, its digital studio, and Nomo, an agent identity and control product in development. |
+| [Explore Waygo ↗](https://www.waygo.cz/) | [Explore Leadora ↗](https://www.leadora.cz/) |
 
 <a name="behind-the-build"></a>
 
@@ -24,11 +24,11 @@ A guest asks what to do in Prague. The front desk shows them a QR code that open
 
 [See the front-desk flow ↗](https://www.waygo.cz/partner/reception) · [Browse experiences ↗](https://www.waygo.cz/discover)
 
-### Receipt Maker · Round the lines before adding them up
+### Leadora · Building Nomo
 
-The engine rounds each line to the currency’s precision before it groups totals by VAT rate. That keeps what prints on the individual lines consistent with the tax summary. The browser test suite covers calculations, exports, barcodes and QR encoding. You can run all **196 checks** yourself.
+Leadora shares strategy and resources across its ventures. Its current focus is developing Nomo, an identity and control layer for teams whose AI agents use MCP tools.
 
-[Use the tool ↗](https://www.zaigla.com/receipt-maker) · [Run the test suite ↗](https://www.zaigla.com/receipt-maker/tests)
+[Leadora ↗](https://www.leadora.cz/) · [Explore Nomo ↗](https://nomo-web.vercel.app/)
 
 <a name="client-work"></a>
 
