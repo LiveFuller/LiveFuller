@@ -1,65 +1,68 @@
 ![LiveFuller, Oliver Žaigla. A black crystal mask with a silver streak, with the Prague skyline behind it.](assets/livefuller-obsidian.webp)
 
-I’m Oliver, a developer based in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
+I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace for local experiences, and built **Receipt Maker**, a browser tool for receipts and invoices.
 
-[Products](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Web projects](#user-content-web-projects) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
+[Products](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Client work](#user-content-client-work) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
 
 <a name="selected-work"></a>
 
 ## ![Selected work](assets/section-work.webp)
 
-| **Waygo** | **zaigla.com** |
+| **Waygo** · Marketplace | **Receipt Maker** · Browser tool |
 | :--- | :--- |
-| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![A sample agent flags two orders and cites the ERP approval queue](assets/zaigla-screen.webp)](https://www.zaigla.com/en#demo) |
-| **What can we do in Prague today?** Waygo takes a guest from a hotel QR card to an experience they can book on their phone. | **Which orders still need a decision?** Step through a simulated assistant that explains which orders it flagged and where its answer came from. |
-| [Explore Waygo ↗](https://www.waygo.cz/) | [Try the agent demo ↗](https://www.zaigla.com/en#demo) |
+| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![Receipt Maker’s editor and a live preview of a sample restaurant receipt](assets/receipt-maker-preview.webp)](https://www.zaigla.com/receipt-maker) |
+| **What can we do in Prague today?** A hotel guest scans a QR code, browses local experiences and requests a booking from their phone. | **Can the printed total match every line?** Create a receipt or invoice with per-line VAT and print it on thermal paper or A4. Calculations run in the browser. |
+| [Explore Waygo ↗](https://www.waygo.cz/) | [Open Receipt Maker ↗](https://www.zaigla.com/receipt-maker) |
 
 <a name="behind-the-build"></a>
 
 ## ![Behind the build](assets/section-build.webp)
 
-### Waygo · From the front desk to a booking
+### Waygo · The handoff starts at reception
 
-A guest asks for a recommendation at reception. The desk gives them one QR code that opens the catalogue on their phone. The guest picks a Prague experience, requests a booking and gets their voucher after confirmation.
+A guest asks what to do in Prague. The front desk shows them a QR code that opens the catalogue on their phone. The guest requests a booking and receives a voucher after confirmation.
 
-| Start here | What you’ll see |
-| :--- | :--- |
-| [The front-desk flow ↗](https://www.waygo.cz/partner/reception) | The QR handoff from reception to the guest’s phone. |
-| [Browse experiences ↗](https://www.waygo.cz/discover) | The catalogue for walks, boat trips and other things to do in Prague. |
+[See the front-desk flow ↗](https://www.waygo.cz/partner/reception) · [Browse experiences ↗](https://www.waygo.cz/discover)
 
-### zaigla.com · Give the exception a reason
+### Receipt Maker · Round the lines before adding them up
 
-In the simulated demo, choose the question about orders waiting for manual approval. Four orders pass the CRM check. Two are held because the billing addresses don’t match. The answer cites the **ERP approval queue** so a reviewer has somewhere to check the decision.
+The engine rounds each line to the currency’s precision before it groups totals by VAT rate. That keeps what prints on the individual lines consistent with the tax summary. The browser test suite covers calculations, exports, barcodes and QR encoding. You can run all **196 checks** yourself.
 
-[Run the example ↗](https://www.zaigla.com/en#demo)
+[Use the tool ↗](https://www.zaigla.com/receipt-maker) · [Run the test suite ↗](https://www.zaigla.com/receipt-maker/tests)
 
-<a name="web-projects"></a>
+<a name="client-work"></a>
 
-## ![Web projects](assets/section-web.webp)
+## ![Client work](assets/section-client.webp)
 
-| **East Hills Barbers** · Website preview | **The Meat Boss** · Independent concept |
-| :--- | :--- |
-| [![East Hills Barbers homepage with a booking button and barbershop equipment](assets/east-hills-preview.webp)](https://www.zaigla.com/east-hills-barbers) | [![The Meat Boss concept homepage with an order-ahead button and butcher counter](assets/meat-boss-order.webp)](https://www.zaigla.com/meat-boss-butchery) |
-| A barbershop site with a service menu, directions and a path to online booking. | An order-ahead prototype for a local butcher. Pick a cut, add preparation instructions and enter a pickup time. |
-| [See the site ↗](https://www.zaigla.com/east-hills-barbers) | [Explore the order flow ↗](https://www.zaigla.com/meat-boss-butchery#order) |
+### RT Likvidace · Turn a service search into a quote request
 
-**[Lynx Studio ↗](https://lynx-studio-delta.vercel.app/)** is a side project that explores motion, typography and a case-study layout for a creative studio.
+[![RT Likvidace’s Prague clearance service page with a request-a-quote button](assets/rt-likvidace-preview.webp)](https://rychlevyklizenipraha.cz/)
+
+I built the public website for a Prague clearance company. It gives visitors a place to check what the team handles, see how pricing works and request a quote.
+
+[See the site ↗](https://rychlevyklizenipraha.cz/) · [See pricing ↗](https://rychlevyklizenipraha.cz/cenik)
 
 <a name="code-and-data"></a>
 
 ## ![Code and data](assets/section-code.webp)
 
-### dbt + ClickHouse · Build a usable lookup table
+### zaigla.com · An agent response you can check
 
-This starter takes a raw NYC taxi-zone table and exposes a staging view with consistent column names. It also defines two dbt checks on `location_id`: the ID must be present and unique.
+Try the order-approval scenario in this interactive demo. It uses sample orders. Four pass the CRM check and two stay in review because the billing addresses don’t match. The response cites the ERP approval queue.
+
+[Try the agent demo ↗](https://www.zaigla.com/en#demo)
+
+### dbt + ClickHouse · A lookup table with schema checks
+
+A public starter that exposes NYC taxi zones as a staging view and defines checks for missing or duplicate location IDs.
 
 | Read the code | What it does |
 | :--- | :--- |
-| [Source definitions](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/sources.yml) | Declares the raw tables the project can reference. |
-| [Staging SQL](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/stg_taxi_zones.sql) | Maps fields like `LocationID` and `Zone` to `location_id` and `zone_name`. |
-| [Schema checks](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/schema.yml) | Defines the tests that catch missing and duplicate IDs. |
+| [Source definitions](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/sources.yml) | Declares the raw taxi tables and zone lookup. |
+| [Staging SQL](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/stg_taxi_zones.sql) | Turns fields such as `LocationID` and `Zone` into `location_id` and `zone_name`. |
+| [Schema checks](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/schema.yml) | Defines the uniqueness and non-null checks on the zone ID. |
 
-[Browse the repository ↗](https://github.com/LiveFuller/ideal-tribble)
+[Browse the starter ↗](https://github.com/LiveFuller/ideal-tribble)
 
 ## Contact
 
