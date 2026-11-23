@@ -1,31 +1,68 @@
 ![LiveFuller, Oliver Žaigla. A black crystal mask with a silver streak, with the Prague skyline behind it.](assets/livefuller-obsidian.webp)
 
-I’m Oliver, a developer in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
+I’m Oliver, a developer based in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
 
-[Portfolio](https://www.zaigla.com/en)　·　[GitHub projects](#open-source)　·　[Email](mailto:oliver@zaigla.com)
+[Products](#selected-work) · [Build notes](#behind-the-build) · [Web projects](#web-projects) · [Code & data](#code-and-data) · [Contact](#contact)
 
-## ![Selected work](assets/selected-work-metal.webp)
+<a id="selected-work"></a>
+
+## ![Selected work](assets/section-work.webp)
 
 | **Waygo** | **zaigla.com** |
 | :--- | :--- |
-| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![The zaigla.com sample agent flags two orders and cites the ERP approval queue](assets/zaigla-screen.webp)](https://www.zaigla.com/en#demo) |
-| A hotel guest scans a card, picks a Prague experience and requests a booking from their phone. | Try an agent that checks sample orders and shows the source behind its answer. |
-| [Explore Waygo](https://www.waygo.cz/) · [For the front desk](https://www.waygo.cz/partner/reception) | [Open the demo](https://www.zaigla.com/en#demo) · [Visit zaigla.com](https://www.zaigla.com/en) |
+| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-showcase.webp)](https://www.waygo.cz/) | [![A sample agent flags two orders and cites the ERP approval queue](assets/zaigla-screen.webp)](https://www.zaigla.com/en#demo) |
+| **What can we do in Prague today?** Waygo takes a guest from a hotel QR card to an experience they can book on their phone. | **Which orders still need a decision?** Step through a simulated assistant that explains which orders it flagged and where its answer came from. |
+| [Explore Waygo ↗](https://www.waygo.cz/) | [Try the agent demo ↗](https://www.zaigla.com/en#demo) |
 
-## Behind the screen
+<a id="behind-the-build"></a>
 
-**Waygo · One code, two journeys.** Guests want to know what they can do today. The front desk needs a way to help without phoning every operator. [See the catalogue](https://www.waygo.cz/) and [the same flow from reception](https://www.waygo.cz/partner/reception).
+## ![Behind the build](assets/section-build.webp)
 
-**zaigla.com · Where did that answer come from?** Pick the order-approval question in the simulated demo. Four orders pass the CRM check. Two stay in review because their billing addresses don’t match. The answer cites the ERP approval queue so a person can follow up. [Try it](https://www.zaigla.com/en#demo).
+### Waygo · From the front desk to a booking
 
-## Open source
+A guest asks for a recommendation at reception. The desk gives them one QR code that opens the catalogue on their phone. The guest picks a Prague experience, requests a booking and gets their voucher after confirmation.
 
-**[dbt + ClickHouse starter](https://github.com/LiveFuller/ideal-tribble)** uses NYC taxi zones to show how a raw table becomes a tested dbt model. Start with the [staging SQL and schema tests](https://github.com/LiveFuller/ideal-tribble/tree/main/models/staging).
+| Start here | What you’ll see |
+| :--- | :--- |
+| [The front-desk flow ↗](https://www.waygo.cz/partner/reception) | The QR handoff from reception to the guest’s phone. |
+| [Browse experiences ↗](https://www.waygo.cz/discover) | The catalogue for walks, boat trips and other things to do in Prague. |
 
-## More web work
+### zaigla.com · Give the exception a reason
 
-**[Lynx Studio](https://lynx-studio-delta.vercel.app/)** is a creative studio website I made as a side project. **[The Meat Boss](https://www.zaigla.com/meat-boss-butchery)** is an independent design concept for ordering from a butcher shop on your phone.
+In the simulated demo, choose the question about orders waiting for manual approval. Four orders pass the CRM check. Two are held because the billing addresses don’t match. The answer cites the **ERP approval queue** so a reviewer has somewhere to check the decision.
 
----
+[Run the example ↗](https://www.zaigla.com/en#demo)
 
-[Email](mailto:oliver@zaigla.com)　·　[LinkedIn](https://www.linkedin.com/in/zaigla/)
+<a id="web-projects"></a>
+
+## ![Web projects](assets/section-web.webp)
+
+| **East Hills Barbers** · Website preview | **The Meat Boss** · Independent concept |
+| :--- | :--- |
+| [![East Hills Barbers homepage with a booking button and barbershop equipment](assets/east-hills-preview.webp)](https://www.zaigla.com/east-hills-barbers) | [![The Meat Boss concept homepage with an order-ahead button and butcher counter](assets/meat-boss-preview.webp)](https://www.zaigla.com/meat-boss-butchery) |
+| A barbershop site with a service menu, directions and a path to online booking. | An order-ahead prototype for a local butcher. Pick a cut, add preparation instructions and enter a pickup time. |
+| [See the site ↗](https://www.zaigla.com/east-hills-barbers) | [Explore the order flow ↗](https://www.zaigla.com/meat-boss-butchery#order) |
+
+**[Lynx Studio ↗](https://lynx-studio-delta.vercel.app/)** is a side project that explores motion, typography and a case-study layout for a creative studio.
+
+<a id="code-and-data"></a>
+
+## ![Code and data](assets/section-code.webp)
+
+### dbt + ClickHouse · Build a usable lookup table
+
+This starter takes a raw NYC taxi-zone table and exposes a staging view with consistent column names. It also defines two dbt checks on `location_id`: the ID must be present and unique.
+
+| Read the code | What it does |
+| :--- | :--- |
+| [Source definitions](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/sources.yml) | Declares the raw tables the project can reference. |
+| [Staging SQL](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/stg_taxi_zones.sql) | Maps fields like `LocationID` and `Zone` to `location_id` and `zone_name`. |
+| [Schema checks](https://github.com/LiveFuller/ideal-tribble/blob/main/models/staging/schema.yml) | Defines the tests that catch missing and duplicate IDs. |
+
+[Browse the repository ↗](https://github.com/LiveFuller/ideal-tribble)
+
+## Contact
+
+Working on a booking flow, internal tool or data pipeline? Tell me where it starts and who needs the result.
+
+[Email](mailto:oliver@zaigla.com) · [Portfolio ↗](https://www.zaigla.com/en) · [LinkedIn ↗](https://www.linkedin.com/in/zaigla/)
