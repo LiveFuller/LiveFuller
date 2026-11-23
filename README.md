@@ -1,10 +1,10 @@
-![Oliver Žaigla · LiveFuller. White rings of light bending around a black eclipse.](assets/profile-orbit.webp)
+![Oliver Žaigla · LiveFuller. A beveled silver Ž monogram with sharp diagonal reflections.](assets/profile-monogram.webp)
 
 I’m Oliver, a developer in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
 
 [Portfolio](https://www.zaigla.com/en)　·　[GitHub projects](#open-source)　·　[Email](mailto:oliver@zaigla.com)
 
-## ![Selected work](assets/selected-work.webp)
+## ![Selected work](assets/selected-work-metal.webp)
 
 | **Waygo** | **zaigla.com** |
 | :--- | :--- |
