@@ -1,33 +1,31 @@
-![Oliver Žaigla, LiveFuller. A black-and-white ink illustration of a mage framed by an eclipse.](assets/profile-cover-ink.webp)
+![Oliver Žaigla · LiveFuller. A lone mage on a ridge beneath a black sun.](assets/profile-eclipse.webp)
 
-I’m Oliver, a developer in Prague. I’m building **Waygo**, where a card on a hotel desk is the start of a booking, and **zaigla.com**, where you can try my demos for AI and automation.
+I’m Oliver, a developer in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
 
-[**Featured builds**](#featured-builds) · [**Try the agent demo**](#try-the-agent-demo) · [**More work**](#more-work) · [**Contact**](#contact)
+[Portfolio](https://www.zaigla.com/en)　·　[GitHub projects](#open-source)　·　[Email](mailto:oliver@zaigla.com)
 
-## Featured builds
+## ![Selected work](assets/selected-work.webp)
 
-| [**Waygo ↗**](https://www.waygo.cz/) | [**zaigla.com ↗**](https://www.zaigla.com/en) |
+| **Waygo** | **zaigla.com** |
 | :--- | :--- |
-| [![Waygo’s mobile catalogue and a hotel QR card](assets/waygo-feature.webp)](https://www.waygo.cz/) | [![zaigla.com agent demo illustration showing an order-review answer and its ERP source](assets/zaigla-feature.webp)](https://www.zaigla.com/en#demo) |
-| **From a hotel QR code to a booking request.** A guest scans the card, browses Prague experiences and makes a request on their phone. Waygo sends the voucher after confirmation. | **An interactive portfolio of my work.** Browse projects in web development and automation, see code examples, or run a simulated assistant over sample operations data. |
-| [Browse the catalogue ↗](https://www.waygo.cz/) · [See the front-desk flow ↗](https://www.waygo.cz/partner/reception) | [Explore the portfolio ↗](https://www.zaigla.com/en/projects) · [Open the agent demo ↗](https://www.zaigla.com/en#demo) |
+| [![A Waygo QR card in front of the mobile catalogue, with Prague in the background](assets/waygo-screen.webp)](https://www.waygo.cz/) | [![The zaigla.com sample agent flags two orders and links its answer to the ERP approval queue](assets/zaigla-screen.webp)](https://www.zaigla.com/en#demo) |
+| A hotel guest scans a card, picks a Prague experience and requests a booking from their phone. | Try an agent that checks sample orders and shows the source behind its answer. |
+| [Explore Waygo](https://www.waygo.cz/) · [For the front desk](https://www.waygo.cz/partner/reception) | [Open the demo](https://www.zaigla.com/en#demo) · [Visit zaigla.com](https://www.zaigla.com/en) |
 
-## Try the agent demo
+## Behind the screen
 
-**Which orders still need a person to review them?** Pick the order-approval question in the demo. In the sample scenario, four orders pass the CRM check and two are held because the billing addresses don’t match. The response shows the **ERP approval queue** as its source.
+**Waygo · One code, two journeys.** Guests want to know what they can do today. The front desk needs a way to help without phoning every operator. [See the catalogue](https://www.waygo.cz/) and [the same flow from reception](https://www.waygo.cz/partner/reception).
 
-I like this example because the same screen tells you what happened, where the answer came from, and which cases still need a decision.
+**zaigla.com · Where did that answer come from?** Pick the order-approval question in the simulated demo. Four orders pass the CRM check. Two stay in review because their billing addresses don’t match. The answer cites the ERP approval queue so a person can follow up. [Try it](https://www.zaigla.com/en#demo).
 
-[**Try it on zaigla.com ↗**](https://www.zaigla.com/en#demo)
+## Open source
 
-## More work
+**[dbt + ClickHouse starter](https://github.com/LiveFuller/ideal-tribble)** uses NYC taxi zones to show how a raw table becomes a tested dbt model. Start with the [staging SQL and schema tests](https://github.com/LiveFuller/ideal-tribble/tree/main/models/staging).
 
-| Project | What to look at |
-| :--- | :--- |
-| [**Lynx Studio ↗**](https://lynx-studio-delta.vercel.app/) | A side project in visual design and front-end development for a creative studio site. |
-| [**The Meat Boss ↗**](https://www.zaigla.com/meat-boss-butchery) | An independent website concept with a mobile order-ahead flow for a butcher shop. |
-| [**dbt + ClickHouse starter ↗**](https://github.com/LiveFuller/ideal-tribble) | A public starter with staging and marts, data tests and a setup script for ClickHouse. |
+## More web work
 
-## Contact
+**[Lynx Studio](https://lynx-studio-delta.vercel.app/)** is a creative studio website I made as a side project. **[The Meat Boss](https://www.zaigla.com/meat-boss-butchery)** is an independent design concept for ordering from a butcher shop on your phone.
 
-[**Email**](mailto:oliver@zaigla.com) · [**LinkedIn ↗**](https://www.linkedin.com/in/zaigla/)
+---
+
+[Email](mailto:oliver@zaigla.com)　·　[LinkedIn](https://www.linkedin.com/in/zaigla/)
