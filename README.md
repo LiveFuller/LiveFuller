@@ -1,37 +1,33 @@
-![Oliver Žaigla, LiveFuller. A sharply inked black-and-white hood framed by a sliver of an eclipse.](assets/profile-cover-ink.webp)
+![Oliver Žaigla, LiveFuller. A black-and-white ink illustration of a mage framed by an eclipse.](assets/profile-cover-ink.webp)
 
-# Oliver Žaigla
+I’m Oliver, a developer in Prague. I’m building **Waygo**, where a card on a hotel desk is the start of a booking, and **zaigla.com**, where you can try my demos for AI and automation.
 
-I’m a developer in Prague and co-founder of **SiteSpot**. I build what happens after someone clicks, scans a code, or sends a message. At Waygo that means taking a guest from a hotel QR card to a booking request. At SiteSpot it means connecting a website to the tools a team uses to do the work.
+[**Featured builds**](#featured-builds) · [**Try the agent demo**](#try-the-agent-demo) · [**More work**](#more-work) · [**Contact**](#contact)
 
-[**Selected work**](#selected-work) · [**Try a demo**](#try-a-demo) · [**Portfolio ↗**](https://www.zaigla.com/en) · [**Contact**](#contact)
+## Featured builds
 
-## Selected work
-
-| [**Waygo ↗**](https://www.waygo.cz/) | [**SiteSpot ↗**](https://sitespot.cz/) |
+| [**Waygo ↗**](https://www.waygo.cz/) | [**zaigla.com ↗**](https://www.zaigla.com/en) |
 | :--- | :--- |
-| [![Waygo website with a mobile booking preview and a hotel QR card](assets/waygo-preview.webp)](https://www.waygo.cz/) | [![The SiteSpot website against a star field](assets/sitespot-preview.webp)](https://sitespot.cz/) |
-| A marketplace for Prague experiences. Hotel guests scan a QR card, pick a local tour or activity, and request it on their phone. | The studio I co-founded. We build websites, AI agents, and automations that connect tools like email, CRM, and invoicing. |
+| [![Waygo’s mobile catalogue and a hotel QR card](assets/waygo-feature.webp)](https://www.waygo.cz/) | [![zaigla.com agent demo illustration showing an order-review answer and its ERP source](assets/zaigla-feature.webp)](https://www.zaigla.com/en#demo) |
+| **From a hotel QR code to a booking request.** A guest scans the card, browses Prague experiences and makes a request on their phone. Waygo sends the voucher after confirmation. | **An interactive portfolio of my work.** Browse projects in web development and automation, see code examples, or run a simulated assistant over sample operations data. |
+| [Browse the catalogue ↗](https://www.waygo.cz/) · [See the front-desk flow ↗](https://www.waygo.cz/partner/reception) | [Explore the portfolio ↗](https://www.zaigla.com/en/projects) · [Open the agent demo ↗](https://www.zaigla.com/en#demo) |
 
-## Try a demo
+## Try the agent demo
 
-**Inbox Autopilot** is an interactive SiteSpot demo. Start the sample inbox and open a reply marked as interested to see the follow-up draft. You can also enter your own example and see how it’s classified. **[Try Inbox Autopilot ↗](https://sitespot.cz/demos/inbox-autopilot.html)**
+**Which orders still need a person to review them?** Pick the order-approval question in the demo. In the sample scenario, four orders pass the CRM check and two are held because the billing addresses don’t match. The response shows the **ERP approval queue** as its source.
 
-## How I build
+I like this example because the same screen tells you what happened, where the answer came from, and which cases still need a decision.
 
-- **Follow the handoff.** Start with where an inquiry, booking, or document comes in and follow it to the person who needs the result.
-- **Make the result inspectable.** An answer from documents should show its source. A suggested reply should be easy to review before it goes out.
-- **Design for retries.** A transient error should leave enough context to resume the job without creating a second record.
+[**Try it on zaigla.com ↗**](https://www.zaigla.com/en#demo)
 
-<details>
-<summary>Tools I reach for</summary>
+## More work
 
-TypeScript, React and Next.js for interfaces. Python and Node.js for services and integrations. PostgreSQL for data, Docker for packaging, and retrieval-augmented generation for assistants that work with documents.
-
-</details>
+| Project | What to look at |
+| :--- | :--- |
+| [**Lynx Studio ↗**](https://lynx-studio-delta.vercel.app/) | A side project in visual design and front-end development for a creative studio site. |
+| [**The Meat Boss ↗**](https://www.zaigla.com/meat-boss-butchery) | An independent website concept with a mobile order-ahead flow for a butcher shop. |
+| [**dbt + ClickHouse starter ↗**](https://github.com/LiveFuller/ideal-tribble) | A public starter with staging and marts, data tests and a setup script for ClickHouse. |
 
 ## Contact
 
-Tell me what comes in, what has to happen next, and where your team still does it by hand.
-
-[**Email ↗**](mailto:oliver@zaigla.com) · [**LinkedIn ↗**](https://www.linkedin.com/in/zaigla/) · [**Portfolio ↗**](https://www.zaigla.com/en)
+[**Email**](mailto:oliver@zaigla.com) · [**LinkedIn ↗**](https://www.linkedin.com/in/zaigla/)
