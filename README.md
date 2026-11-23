@@ -1,4 +1,4 @@
-![Oliver Žaigla · LiveFuller. A beveled silver Ž monogram with sharp diagonal reflections.](assets/profile-monogram.webp)
+![LiveFuller, Oliver Žaigla. A black crystal mask with a silver streak, with the Prague skyline behind it.](assets/livefuller-obsidian.webp)
 
 I’m Oliver, a developer in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
 
