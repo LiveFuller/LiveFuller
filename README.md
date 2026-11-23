@@ -1,4 +1,4 @@
-![LiveFuller. A black-glass figure with a white light across its mask, surrounded by broken optical cables.](assets/profile-cover.webp)
+![LiveFuller. A hooded figure with a cracked white mask and an eclipse over Prague.](assets/profile-cover-manga.webp)
 
 # Oliver Žaigla
 
