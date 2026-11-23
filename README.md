@@ -1,4 +1,4 @@
-![Oliver Žaigla · LiveFuller. A lone mage on a ridge beneath a black sun.](assets/profile-eclipse.webp)
+![Oliver Žaigla · LiveFuller. A black-and-white portrait of a wizard holding a staff in front of an eclipse.](assets/profile-eclipse-mage.webp)
 
 I’m Oliver, a developer in Prague. I build **Waygo** for hotel guests and publish web projects and interactive automation demos on **zaigla.com**.
 
