@@ -39,7 +39,7 @@ In the simulated demo, choose the question about orders waiting for manual appro
 
 | **East Hills Barbers** · Website preview | **The Meat Boss** · Independent concept |
 | :--- | :--- |
-| [![East Hills Barbers homepage with a booking button and barbershop equipment](assets/east-hills-preview.webp)](https://www.zaigla.com/east-hills-barbers) | [![The Meat Boss concept homepage with an order-ahead button and butcher counter](assets/meat-boss-preview.webp)](https://www.zaigla.com/meat-boss-butchery) |
+| [![East Hills Barbers homepage with a booking button and barbershop equipment](assets/east-hills-preview.webp)](https://www.zaigla.com/east-hills-barbers) | [![The Meat Boss concept homepage with an order-ahead button and butcher counter](assets/meat-boss-order.webp)](https://www.zaigla.com/meat-boss-butchery) |
 | A barbershop site with a service menu, directions and a path to online booking. | An order-ahead prototype for a local butcher. Pick a cut, add preparation instructions and enter a pickup time. |
 | [See the site ↗](https://www.zaigla.com/east-hills-barbers) | [Explore the order flow ↗](https://www.zaigla.com/meat-boss-butchery#order) |
 
