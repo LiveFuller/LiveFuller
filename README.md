@@ -1,48 +1,37 @@
-<img src="assets/hero.svg" width="100%" alt="Software for the real world. A violet wireframe monogram on a midnight grid." />
+![LiveFuller. A black-glass figure with a white light across its mask, surrounded by broken optical cables.](assets/profile-cover.webp)
 
 # Oliver Žaigla
 
-I’m a developer in Prague and co-founder of SiteSpot. I build AI agents that can show their sources, automations that connect existing tools, and web apps that take a real task from start to finish.
+I’m a developer in Prague and co-founder of **SiteSpot**. I build what happens after someone clicks, scans a code, or sends a message. At Waygo that means taking a guest from a hotel QR card to a booking request. At SiteSpot it means connecting a website to the tools a team uses to do the work.
 
-[**Projects**](#selected-work) · [**How I build**](#how-i-build) · [**Portfolio ↗**](https://www.zaigla.com/en) · [**Get in touch**](#get-in-touch)
+[**Selected work**](#selected-work) · [**Try a demo**](#try-a-demo) · [**Portfolio ↗**](https://www.zaigla.com/en) · [**Contact**](#contact)
 
 ## Selected work
 
-### Waygo · Prague in your pocket
+| [**Waygo ↗**](https://www.waygo.cz/) | [**SiteSpot ↗**](https://sitespot.cz/) |
+| :--- | :--- |
+| [![Waygo website with a mobile booking preview and a hotel QR card](assets/waygo-preview.webp)](https://www.waygo.cz/) | [![The SiteSpot website against a star field](assets/sitespot-preview.webp)](https://sitespot.cz/) |
+| A marketplace for Prague experiences. Hotel guests scan a QR card, pick a local tour or activity, and request it on their phone. | The studio I co-founded. We build websites, AI agents, and automations that connect tools like email, CRM, and invoicing. |
 
-[![Amber street map with a route across the Vltava, leading from a hotel to a boat landing](assets/waygo.svg)](https://www.waygo.cz/en)
+## Try a demo
 
-A marketplace for Prague hotel guests. Scan a QR card at reception, find a local tour or a boat trip, and request a booking on your phone. **[Explore Waygo ↗](https://www.waygo.cz/en)**
-
-### SiteSpot · Websites, agents & automation
-
-[![A browser window connected to a workflow on an electric lilac background](assets/sitespot.svg)](https://sitespot.cz)
-
-The studio I co-founded. We build websites and connect the tools behind them, from capturing an inquiry to routing it to the right person. **[Visit SiteSpot ↗](https://sitespot.cz)**
-
-### String Lab · Physics you can manipulate
-
-[![A wireframe surface and a plotted wave on a dark blue scientific grid](assets/string-lab.svg)](https://stringlab-black.vercel.app/)
-
-A browser-based lab for string theory and astrophysics. Explore derivations, change parameters in live charts, and see how the models behave in interactive 3D scenes. **[Open String Lab ↗](https://stringlab-black.vercel.app/)**
+**Inbox Autopilot** is an interactive SiteSpot demo. Start the sample inbox and open a reply marked as interested to see the follow-up draft. You can also enter your own example and see how it’s classified. **[Try Inbox Autopilot ↗](https://sitespot.cz/demos/inbox-autopilot.html)**
 
 ## How I build
 
-- **Start with a concrete task.** Follow it from the first input to the person who needs the result.
-- **Make decisions inspectable.** Show the source behind an AI answer and give uncertain cases a way to reach a human.
-- **Build for the second run.** Keep retries from creating duplicate records, and give the next person enough context to maintain the system.
+- **Follow the handoff.** Start with where an inquiry, booking, or document comes in and follow it to the person who needs the result.
+- **Make the result inspectable.** An answer from documents should show its source. A suggested reply should be easy to review before it goes out.
+- **Design for retries.** A transient error should leave enough context to resume the job without creating a second record.
 
 <details>
-<summary><strong>Open the toolkit</strong></summary>
+<summary>Tools I reach for</summary>
 
-- **Interfaces and APIs:** TypeScript, React, Next.js, Node.js, Python
-- **Data and delivery:** PostgreSQL, Docker, AWS
-- **AI and automation:** retrieval-augmented generation (RAG), tool calling, workflow integrations
+TypeScript, React and Next.js for interfaces. Python and Node.js for services and integrations. PostgreSQL for data, Docker for packaging, and retrieval-augmented generation for assistants that work with documents.
 
 </details>
 
-## Get in touch
+## Contact
 
-If your team keeps copying data between two tools or answering the same question from a pile of documents, tell me what that looks like today.
+Tell me what comes in, what has to happen next, and where your team still does it by hand.
 
-[**Email me ↗**](mailto:oliver@zaigla.com) · [**LinkedIn ↗**](https://www.linkedin.com/in/zaigla/) · [**Portfolio ↗**](https://www.zaigla.com/en)
+[**Email ↗**](mailto:oliver@zaigla.com) · [**LinkedIn ↗**](https://www.linkedin.com/in/zaigla/) · [**Portfolio ↗**](https://www.zaigla.com/en)
