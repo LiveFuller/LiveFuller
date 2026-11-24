@@ -1,5 +1,13 @@
 ![LiveFuller, Oliver Žaigla. A black crystal mask with a silver streak, with the Prague skyline behind it.](assets/livefuller-obsidian.webp)
 
+<p align="center">
+  <a href="https://www.zaigla.com/en"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2600&pause=900&color=8B949E&center=true&vCenter=true&width=720&lines=Building+Waygo+in+Prague.;AI+agents%2C+MCP+tooling+and+automation.;Web+apps+that+ship." alt="Building Waygo in Prague. AI agents, MCP tooling and automation. Web apps that ship." /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=LiveFuller&style=flat-square&color=grey&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
+
 I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace for local experiences, and **Leadora**, the company developing Nomo.
 
 [Featured work](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Client work](#user-content-client-work) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
