@@ -29,8 +29,15 @@ I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace fo
 Code I publish for anyone to read, run and reuse. More lands here as it ships.
 
 <p align="center">
+  <a href="https://github.com/LiveFuller/rainmaker"><img src="https://github-readme-stats.vercel.app/api/pin/?username=LiveFuller&repo=rainmaker&theme=transparent&hide_border=true&title_color=8B949E&text_color=8B949E&icon_color=8B949E" alt="rainmaker — the open-source AI salesman" /></a>
   <a href="https://github.com/LiveFuller/ideal-tribble"><img src="https://github-readme-stats.vercel.app/api/pin/?username=LiveFuller&repo=ideal-tribble&theme=transparent&hide_border=true&title_color=8B949E&text_color=8B949E&icon_color=8B949E" alt="ideal-tribble — dbt and ClickHouse starter" /></a>
 </p>
+
+### rainmaker · An outbound rep that never sleeps
+
+Plug in your offer and a CSV of leads. rainmaker scores each lead against your ideal customer profile, writes a first touch in your voice, follows up on a cadence, classifies replies by intent and hands you the meetings. Approval mode by default — nothing sends without a human yes.
+
+[Read the code ↗](https://github.com/LiveFuller/rainmaker) · [Try the one-minute demo ↗](https://github.com/LiveFuller/rainmaker#try-it-in-one-minute--no-keys-no-network)
 
 <a name="behind-the-build"></a>
 
