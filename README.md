@@ -10,7 +10,7 @@
 
 I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace for local experiences, and **Leadora**, the company developing Nomo.
 
-[Featured work](#user-content-selected-work) · [Build notes](#user-content-behind-the-build) · [Client work](#user-content-client-work) · [Code & data](#user-content-code-and-data) · [Contact](#user-content-contact)
+[Featured work](#user-content-selected-work) · [Open source](#user-content-open-source) · [Build notes](#user-content-behind-the-build) · [Client work](#user-content-client-work) · [Code & data](#user-content-code-and-data) · [Live on GitHub](#user-content-live-on-github) · [Contact](#user-content-contact)
 
 <a name="selected-work"></a>
 
@@ -21,6 +21,16 @@ I’m Oliver, a developer based in Prague. I work on **Waygo**, a marketplace fo
 | [![The Waygo mobile catalogue and hotel QR card over a black-and-white Prague skyline](assets/waygo-showcase-mono.webp)](https://www.waygo.cz/) | [![Leadora lettering beside two black crystal towers on a shared base](assets/leadora-showcase.webp)](https://www.leadora.cz/) |
 | **What can we do in Prague today?** A hotel guest scans a QR code, browses local experiences and requests a booking from their phone. | Leadora brings together SiteSpot, its digital studio, and Nomo, an agent identity and control product in development. |
 | [Explore Waygo ↗](https://www.waygo.cz/) | [Explore Leadora ↗](https://www.leadora.cz/) |
+
+<a name="open-source"></a>
+
+## Open source
+
+Code I publish for anyone to read, run and reuse. More lands here as it ships.
+
+<p align="center">
+  <a href="https://github.com/LiveFuller/ideal-tribble"><img src="https://github-readme-stats.vercel.app/api/pin/?username=LiveFuller&repo=ideal-tribble&theme=transparent&hide_border=true&title_color=8B949E&text_color=8B949E&icon_color=8B949E" alt="ideal-tribble — dbt and ClickHouse starter" /></a>
+</p>
 
 <a name="behind-the-build"></a>
 
