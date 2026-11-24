@@ -82,6 +82,27 @@ A public starter that exposes NYC taxi zones as a staging view and defines check
 
 [Browse the starter ↗](https://github.com/LiveFuller/ideal-tribble)
 
+<a name="live-on-github"></a>
+
+## Live on GitHub
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LiveFuller/LiveFuller/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LiveFuller/LiveFuller/output/github-contribution-grid-snake.svg" />
+    <img alt="A snake eating through the contribution grid" src="https://raw.githubusercontent.com/LiveFuller/LiveFuller/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=LiveFuller&theme=transparent&hide_border=true&ring=8B949E&fire=8B949E&currStreakLabel=8B949E&sideLabels=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=6E7681" alt="GitHub contribution streak" />
+</p>
+
+### Recent activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ## Contact
 
 Working on a booking flow, internal tool or data pipeline? Tell me where it starts and who needs the result.
